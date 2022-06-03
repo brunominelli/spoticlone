@@ -5,7 +5,7 @@ USE SpotifyClone;
 CREATE TABLE IF NOT EXISTS SpotifyClone.Plans (
 	id INT NOT NUll AUTO_INCREMENT,
     plan VARCHAR(255) NOT NULL,
-    price FLOAT(8,2) NOT NULL,
+    price DECIMAL(8,2) NOT NULL,
     PRIMARY KEY (id)
 ) ENGINE = InnoDB;
 
